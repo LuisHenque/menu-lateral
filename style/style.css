@@ -14,7 +14,7 @@ body {
 }
 
 nav.menu-lateral {
-    background-color: rgb(48, 48, 48);
+    background-color: #303030;
     box-shadow: 3px 0 0 #ff4500;
     height: 100%;
     overflow: hidden;
@@ -82,4 +82,16 @@ nav.menu-lateral.expand .txt-link{
 ul > li > a > span.icon {
     font-size: 30px;
     margin-left: 8px;
+}
+
+footer {
+    color: #fff;
+    background-color: #303030;
+    display: block;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    width: 91.3vw;
 }
