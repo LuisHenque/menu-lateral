@@ -13,21 +13,31 @@ body {
     height: 100vh;
 }
 
+header {
+    background-color: #303030;
+}
+
+header > h1 {
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
 nav.menu-lateral {
     background-color: #303030;
     box-shadow: 3px 0 0 #ff4500;
     height: 100%;
     overflow: hidden;
-    padding: 40px 0px 40px 2%;
+    padding: 30px 0px 30px 2%;
     position: fixed;
     left: 0;
     top: 0;
     transition: .5s;
-    width: 80px;
+    width: 50px;
 }
 
 nav.menu-lateral.expand {
-    width: 300px;
+    width: 200px;
 }
 
 .btn-expand {
@@ -38,7 +48,7 @@ nav.menu-lateral.expand {
 
 .btn-expand > span {
     color: #fff;
-    font-size: 2em;
+    font-size: 20px;
 }
 
 ul {
@@ -82,20 +92,19 @@ nav.menu-lateral.expand .txt-link{
 }
 
 ul > li > a > span.icon {
-    /* font-size: 30px; */
-    margin-left: 8px;
+    font-size: 20px;
+    margin-left: 4px;
 }
 
 footer {
-    color: #fff;
     background-color: #303030;
-    display: block;
+    color: #fff;
     padding: 10px;
     position: absolute;
     bottom: 0;
-    right: 0;
     text-align: center;
-    width: 91.3vw;
+    width: 100vw;
+
 }
 
 footer > p > a {
