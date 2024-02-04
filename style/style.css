@@ -37,7 +37,7 @@ nav.menu-lateral {
 }
 
 nav.menu-lateral.expand {
-    width: 200px;
+    width: 175px;
 }
 
 .btn-expand {
@@ -81,6 +81,7 @@ ul > li > a {
 }
 
 ul > li > a > span.txt-link {
+    font-size: 10px;
     margin-left: 75px;
     opacity: 0;
     transition: .5s;
