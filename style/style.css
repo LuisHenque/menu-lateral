@@ -19,6 +19,7 @@ header {
 
 header > h1 {
     color: #fff;
+    font-size: 1em;
     padding: 15px;
     text-align: center;
 }
@@ -100,6 +101,7 @@ ul > li > a > span.icon {
 footer {
     background-color: #303030;
     color: #fff;
+    font-size: .8em;
     padding: 10px;
     position: absolute;
     bottom: 0;
@@ -108,8 +110,8 @@ footer {
 }
 
 footer > p > a {
-    text-decoration: none;
     color: #fff;
+    text-decoration: none;
 }
 
 footer > p a:hover {
