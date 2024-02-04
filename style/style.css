@@ -10,7 +10,7 @@
 }
 
 body {
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 header {
@@ -105,7 +105,6 @@ footer {
     bottom: 0;
     text-align: center;
     width: 100vw;
-
 }
 
 footer > p > a {
